@@ -22,7 +22,7 @@ public class testBase {
 	public static WebDriver dr = null;
 	public static EventFiringWebDriver driver = null;
 	public static boolean isLoggedIn = false;
-	
+	public static boolean isLoggedout = false;
 	public void initialize() throws IOException{
 		
 		if(driver==null){
